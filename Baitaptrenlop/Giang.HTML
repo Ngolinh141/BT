@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body{
+            max-width: 200px;
+        }
+        .font{
+            /* white-space: nowrap; */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            font-family: sans-serif;
+            color: rgb(169, 28, 250);
+        }
+        ul{
+            list-style: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        li:first-child {
+            color: cadetblue;
+        }
+        li:last-child {
+            color: cadetblue;
+        }
+        li:nth-child(2) {
+            color: blueviolet;
+        }
+        li:nth-child(3){
+            color: chartreuse;
+        }
+        li:nth-child(4){
+            color: cornflowerblue;
+        }
+        li:nth-last-child(2) {
+            color: aquamarine;
+        }
+        li:nth-last-child(3){
+            color: coral;
+        }
+        /* li:nth-child(odd){
+            color: crimson;lẻ
+        } */
+        /* li:nth-child(even){
+            color: cyan;chẵn
+        } */
+        li:nth-child(2n+1){
+            color: darkmagenta;
+        }
+        li:first-of-type{
+            color:aqua;
+        }
+        li:last-of-type{
+            color:blueviolet;
+        }
+        li:nth-of-type(5){
+            color:deeppink;
+        }
+        
+    </style>
+
+</head>
+<body>          
+    <ul>
+        <p class="font">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laudantium similique modi recusandae laboriosam necessitatibus, delectus aperiam ipsum laborum illum eligendi omnis, nemo blanditiis quo, molestias pariatur maxime quibusdam quaerat!
+        </p>
+        <li>Hoa Hoa</li>
+        <li>Manh Lan</li>
+        <li>Manh Manh</li>  
+        <li>My Lan</li>
+        <li>Hoa Diep</li>
+        <li>Hoa Hoa</li>
+        <li>Manh Lan</li>
+        <li>Manh Manh</li>
+        <li>My Lan</li>
+        <li>Hoa Diep</li>
+    </ul>
+</body>
+</html>

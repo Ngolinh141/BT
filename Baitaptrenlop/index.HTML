@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Giang </title>
+    <style>
+        .head{
+          width: 100%;
+          height: 100vh;
+          /* background-image: url(https://youtu.be/EQe1m92es8o?t=3537);  
+          background-size: 100%;
+          background-repeat: no-repeat;độ lặp */
+          background-image: linear-gradient(90deg, #323, #fff)/*dảy màu chuyển*/,
+          url(https://youtu.be/EQe1m92es8o?t=3537);
+          /*dung rgba để tạo độ pan trong suốt*/
+          /* background-size: contain;lấy cạnh dài hơn nhưng không che mất ảnh */
+        background-size: cover;/*lấy cạnh dài hơn, chấp nhận mất phần ảnh để lấp khoảng trắng*/
+        border: 10px dashed #ccc;
+        box-sizing: border-box;
+        background-origin: border-box;/*hình ảnh đổ từ border*/
+        background-position: center ;/*di chuyern vị trí ảnh*/
+        background: url() no-repeat center / contain;
+        }
+        h1{
+            position: relative;/*vị trí tương đối lấy chính mình làm tọa đọ*/
+            top: 12px;
+        }
+    </style>
+    <!--position: tạo ra các vị trí đặc biệt : đè lên nhau 
+    :relative, absolute, fixed, sticky-->
+</head>
+<!--body bôi đen nhấn ctrl + / -->
+<body>
+    <p> Khoa hoc HTML va CSS </p>
+    <h1> The 1 </h1>
+    <h2> The 2 </h2>
+    <h3> The 3 </h3>
+    <img src="./images/123.jpg" alt="img-hi">
+    <ol>
+        <li> Đặt vấn đề </li>
+        <li> Giải quyết </li>
+        <li> Kết quả </li>
+    </ol>
+    <ul>
+        <li> Nội dung 1 </li>
+        <li> Nội dung 2 </li>
+    </ul>
+    <span> abc </span>
+    <b> hi </b>
+    <i> luoyunhi </i>
+    <strong> zhangyunlei </strong>
+    <em> yangjuulang </em>
+    
+    <i> juubianer </i>
+    <!-- phim tat alt + z xuong dong-->
+    
+    <ol type="I">
+        <li>Hi</li>
+    </ol>
+    <h3 style="background-color: bisque;color: blueviolet;font-family: monospace;font-size: 250%;text-align:center;"> Trương Vân Lôi </h3>
+    <a href="https://wattap.com" target="_blank"> wattap </a> <br></br>
+    <label for="HTML">HTML</label> 
+    <progress id="HTML" value="32" max="100"> Good </progress> <br></br>
+    <label for="java"> JAVA</label> 
+    <progress id="HTML" value="72" max="100"> 72% </progress> <br></br>
+    <label for="Giang"> Giang </label>
+    <progress id="Giang" value="80" max="100"> 80% </progress>
+    <br></br>
+
+    <h2> MỤC LỤC </h2>
+    <a href="#ch1"> Chương 1 </a> <br>
+    <a href="#ch2"> Chương 2 </a> <br>
+    <a href="#ch3"> Chương 3 </a> <br>
+    <br></br>
+
+    <h3 id="ch1"> Chương 1 </h3>
+    <p> The most important attribute of the  element is the href attribute, which indicates the link's destination.</p> <br></br>   
+    <h3 id="ch2"> Chương 2 </h3>
+    <p> The most important attribute of the  element is the href attribute, which indicates the link's destination.</p> <br></br>
+    <h3 id="ch3"> Chương 3 </h3>
+    <p> The most important attribute of the  element is the href attribute, which indicates the link's destination.</p> <br></br>
+
+    <form action="./xuly.php">
+        <label for="lb-1"> Họ Tên </label><br/>
+        <input type="text" name="fname" style="background-color: rgb(230, 155, 155);"/><br/>
+        <label for="lb-1"> Mật Khẩu </label><br/>
+        <input type="password" name="password" style="background-color: antiquewhite;"/><br/>
+        <label for="lb-1" >Email: </label> <br/>
+        <input type="email" name="email" style="background-color: aquamarine;"> <br/>
+        <input type="submit" value="submit"> <br/>
+        <label for="color"> MÀu sắc yêu thích </label>
+        <input type="color" name="color"><br/>
+        <input type="range" name="points" min="0" max="20" ><br/>
+        Birthday (month and year):
+        <input type="month" name="bdayymonth"><br/>
+        Select a week:
+        <input type="week" name="week_year"><br/>
+        Select a time:
+        <input type="time" name="usr_time"><br/>
+        <input type="date" name="date"><br/>
+        <input type="datetime-local" name="bdaytime"><br/>
+        Giới tính 
+        <br/><input type="radio" name="gd" checked > Nam <br/>
+        <input type="radio" name="gd" > Nữ <br>
+        Sở thích
+        <br><input type="checkbox" name="st1" value="Du lịch"> Du lịch <br>
+        <input type="checkbox" name="st2" value="Đọc truyện"> Đọc truyện <br>
+    </form>
+ 
+    <div class="header"></div>
+
+</body>
+</html>

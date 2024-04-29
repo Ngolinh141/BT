@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+    color: black;
+}
+
+.container{
+    width: 1130px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    background-color: #fcfaf6;
+    font-weight: 700;
+}
+
+.header>h2{
+    color: #867428;
+    font-size: 28px;
+    font-weight:700;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Merriweather'; */
+}
+
+.header-content h2:hover{
+    color:#B52759;
+}
+
+.header li{
+    display: inline-block;
+    margin: 20px 10px 10px 0;
+}
+
+.header a{
+    font-weight: 50;
+    font-family: arial;
+    color: #4f4f4f;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+a:hover{
+    color:#087cce;
+}
+
+.header .title-1{
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.content{
+    display:flex;
+    padding-bottom: 20px;
+    color:#222222;
+    border-bottom: 1px solid gray;
+}
+
+.main-new{
+    width: 50%;
+    margin-top: 15px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+
+.main-new p{
+    font-family: Arial;
+    line-height:21px;
+    font-size: 15px;
+    color: #4f4f4f;
+    font-weight:50;
+}
+
+.main-new img{
+    width: 100%;
+}
+
+.extra-new{
+    width: 25%;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+
+.extra-new a{
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 24px;
+}
+
+.extra-new h3{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.extra-new .en-1{
+    padding-bottom: 15px;
+    /* margin-top:15px; */
+    border-bottom: 1px solid gray;
+}
+
+.extra-new .en-2{
+    margin-top:15px;
+
+}
+
+.extra-new img{
+    width: 100%;
+}
+
+.related-new{
+    width:27%;
+    padding-left: 20px;
+}
+
+.related-new .new{
+    display:flex;
+    margin-top:15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+.related-new .img{
+    width: 35%
+}
+
+.related-new img{
+    width: 100%;
+}
+
+.related-new .text{
+    width: 65%;
+    line-height: 24px;
+    padding-right: 15px;
+}
+
+.new-1, .new-2, .new-3{
+    border-bottom: 1px solid grey;
+}

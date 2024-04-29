@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bài tập 1</title>
+</head>
+<body>
+    <h1 style="font-size: 300%;"><b>ĐĂNG NHẬP DIỄN ĐÀN</b></h1> <br/>
+    <form action="./xuly.php">
+        <table>
+            <tr><td>Tên đăng nhập: </td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr><td>Mật khẩu: </td>
+            <td><input type="password" name="password" ></td></tr>
+        </table>
+        <input type="submit" value="Đăng nhập">
+        <input type="submit" value="Phục hồi"> <br/>
+        Giới tính: 
+        <input type="radio" name="gt" checked> Nam 
+        <input type="radio" name="gt"> Nữ 
+        <br/><br/>
+        Những mục bạn thường quan tâm trên internet
+        <br/> <br/>
+        <input type="checkbox" name="qt1"> Tin Tức <br/>
+        <input type="checkbox" name="qt2"> Giải trí <br/>
+        <input type="checkbox" name="qt3"> Thể thao <br/>
+    </form>
+    <h1 style="font-size: 300%;"><b>ĐÓNG GÓP Ý KIẾN</b></h1>  
+    <textarea name="feedback" id="feedback" cols="60" rows="5"> Mời bạn đóng góp ý kiến </textarea>
+    <br/><br/>
+    <input type="submit" value="Gửi">
+    <input type="submit" value="Hủy">
+</body>
+</html>
